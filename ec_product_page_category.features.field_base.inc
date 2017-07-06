@@ -10,7 +10,6 @@
 function ec_product_page_category_field_default_field_bases() {
   $field_bases = array();
 
-
   // Exported field_base: 'field_product_category_image'.
   $field_bases['field_product_category_image'] = array(
     'active' => 1,
