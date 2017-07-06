@@ -424,6 +424,182 @@ function ec_product_page_category_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance:
+  // 'node-product_category-field_ref_prodcat_case_study'.
+  $field_instances['node-product_category-field_ref_prodcat_case_study'] = array(
+    'bundle' => 'product_category',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Select case studies to display on this product category page.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 6,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'grouped_teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'show_this_block' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 7,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_ref_prodcat_case_study',
+    'label' => 'Case Studies',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'entityreference',
+      'settings' => array(
+        'match_operator' => 'CONTAINS',
+        'path' => '',
+        'size' => 60,
+      ),
+      'type' => 'entityreference_autocomplete',
+      'weight' => 11,
+    ),
+  );
+
+  // Exported field_instance: 'node-product_category-field_ref_prodcat_faq'.
+  $field_instances['node-product_category-field_ref_prodcat_faq'] = array(
+    'bundle' => 'product_category',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Select FAQ to display on this product category page.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'grouped_teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'show_this_block' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 6,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_ref_prodcat_faq',
+    'label' => 'FAQ',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'entityreference',
+      'settings' => array(
+        'match_operator' => 'CONTAINS',
+        'path' => '',
+        'size' => 60,
+      ),
+      'type' => 'entityreference_autocomplete',
+      'weight' => 12,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'node-product_category-field_ref_prodcat_testimonial'.
+  $field_instances['node-product_category-field_ref_prodcat_testimonial'] = array(
+    'bundle' => 'product_category',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Select testimonials to display on this product category page.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 5,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'grouped_teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'show_this_block' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 9,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_ref_prodcat_testimonial',
+    'label' => 'Testimonials',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'entityreference',
+      'settings' => array(
+        'match_operator' => 'CONTAINS',
+        'path' => '',
+        'size' => 60,
+      ),
+      'type' => 'entityreference_autocomplete',
+      'weight' => 13,
+    ),
+  );
+
   // Exported field_instance: 'node-product_category-field_ref_to_cta_form'.
   $field_instances['node-product_category-field_ref_to_cta_form'] = array(
     'bundle' => 'product_category',
@@ -546,11 +722,17 @@ function ec_product_page_category_field_default_field_instances() {
   t('Button Text');
   t('CTA form');
   t('Call to Action');
+  t('Case Studies');
   t('Display Title');
   t('Display subtitle');
+  t('FAQ');
   t('Product Category');
   t('Product Category Image');
+  t('Select FAQ to display on this product category page.');
+  t('Select case studies to display on this product category page.');
+  t('Select testimonials to display on this product category page.');
   t('Select the category/categories this product is in.');
+  t('Testimonials');
 
   return $field_instances;
 }
